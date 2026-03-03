@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext } from "react";
 import "./ProductDisplay.css";
 import star_icon from "../Assets/star_icon.png";
 import star_dull_icon from "../Assets/star_dull_icon.png";
@@ -8,12 +8,12 @@ const ProductDisplay = (props) => {
   const { product } = props;
   const {addToCart} = useContext(ShopContext)
 
-  const [thumbnail, setThumbnail] = useState(null);
+ // const {thumbnail, setThumbnail} = useState(null);
 
 
-  useEffect (()=> {
-        setThumbnail(product?.image[0] ? product.image[0] : null)
-    },[product])
+ // useEffect (()=> {
+  //      setThumbnail(product?.image[0] ? product.image[0] : null)
+ //   },[product])
 
 
   return product && (
@@ -22,7 +22,7 @@ const ProductDisplay = (props) => {
       <div className="productdisplay-left">
         <div className="productdisplay-img-list">
             {product.image.map((image, index) => (
-                <div key={index} onClick={() => setThumbnail(image)}>
+                <div key={index} >
                     <img src={image} alt={`Thumbnail ${index + 1}`} />
                 </div>
             ))}

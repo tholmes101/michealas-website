@@ -6,14 +6,7 @@ import { ShopContext } from "../../Context/ShopContext";
 
 const ProductDisplay = (props) => {
   const { product } = props;
-  const {addToCart} = useContext(ShopContext)
-
- // const {thumbnail, setThumbnail} = useState(null);
-
-
- // useEffect (()=> {
-  //      setThumbnail(product?.image[0] ? product.image[0] : null)
- //   },[product])
+  const {addToCart} = useContext(ShopContext);
 
 
   return product && (
@@ -63,8 +56,6 @@ const ProductDisplay = (props) => {
           </div>
         </div>
         <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
-        <p className="productdisplay-right-category"><span>Category : </span>Woman, T-Shirt, Crop Top</p>
-        <p className="productdisplay-right-category"><span>Tags : </span>Modern, latest</p>
       </div>
     </div>
   );

@@ -10,16 +10,19 @@ const DescriptionBox = () => {
       </div>
       <div className="descriptionBox-description">
         <p>
-          Made from ultra-soft, high-quality cotton blend, this sweatshirt
-          ensures that your child stays warm and comfortable throughout the day.
-          The fabric is gentle on the skin, making it ideal for playtime,
-          school, or cozying up on chilly evenings.
+          An e-commerce website is an online platform that facilitates buying
+          and selling of products or services over the internet. it serves as a
+          virtual marketplace where businesses and individuals showcase their
+          products, interact with customers, and conduct transactions without
+          the need for a physical presence. E-commerce websites have gained
+          immense popularity due to their convenience accessibility, and the
+          global reach they offer.
         </p>
         <p>
-          Made from ultra-soft, high-quality cotton blend, this sweatshirt
-          ensures that your child stays warm and comfortable throughout the day.
-          The fabric is gentle on the skin, making it ideal for playtime,
-          school, or cozying up on chilly evenings.
+          E-commerce websites typically display products or services along with
+          detailed descriptions, images, prices and any available variations
+          (e.g, sizes, colors). Each product usually has it's own dedicated page
+          with relevant information.
         </p>
       </div>
     </div>

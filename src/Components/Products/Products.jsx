@@ -6,7 +6,7 @@ import Item from '../Item/Item'
 const Products = () => {
   return (
     <div className='products'>
-        <h1>MY PRODUCTS</h1>
+        <h2>Michaela's Favorites</h2>
         <hr />
         <div className="products-item">
             {data_product.map((item, i)=>{

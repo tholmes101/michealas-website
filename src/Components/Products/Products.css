@@ -7,15 +7,15 @@
     margin-bottom: 100px;
 }
 
-.products h1 {
+.products h2 {
     color: #171717;
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 35px;
+    font-weight: 400;
 }
 
 .products hr {
-    width: 200px;
-    height: 6px;
+    width: 150px;
+    height: 5px;
     border-radius: 10px;
     background: #252525;
 }

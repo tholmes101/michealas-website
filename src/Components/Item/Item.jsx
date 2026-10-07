@@ -9,7 +9,7 @@ const Item = (props) => {
         <div className="card">
             <div className="image-wrapper">
                 <Link to={`/product/${props.id}`}>
-                    <img onClick={window.scrollTo(0,0)} className="product-image" src={props.image[0]} alt="" />
+                    <img onClick={window.scrollTo(0,0)} className="product-image" src={props.image} alt="" />
                 </Link>
             </div>
 

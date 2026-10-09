@@ -3,7 +3,7 @@ import './Item.css'
 import { Link } from 'react-router-dom'
 
 const Item = (props) => {
-    const [count, setCount] = React.useState(0);
+    // const [count, setCount] = React.useState(0);
 
     return (
         <div className="card">
@@ -38,7 +38,7 @@ const Item = (props) => {
                         <span className="old-price">${props.old_price}</span>
                     </p>
 
-                    <div className="cart">
+                    {/* <div className="cart">
                         {count === 0 ? (
                             <button className="add-btn" onClick={() => setCount(1)}>
                                 <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
@@ -53,7 +53,7 @@ const Item = (props) => {
                                 <button onClick={() => setCount((prev) => prev + 1)}>+</button>
                             </div>
                         )}
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

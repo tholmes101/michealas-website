@@ -10,7 +10,7 @@ const Products = () => {
         <hr />
         <div className="products-item">
             {data_product.map((item, i)=>{
-                return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} old_price={item.old_price}/>
+                return <Item key={i} id={item.id} name={item.name} image={item.image[0]} new_price={item.new_price} old_price={item.old_price}/>
             })}
         </div>
     </div>

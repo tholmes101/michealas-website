@@ -1,11 +1,11 @@
 .card {
-    border: 3px solid rgba(62, 57, 73, 0.966);
+    border: 2px solid rgba(62, 57, 73, 0.966);
     border-radius: 8px;
     padding: 12px;
     background: white;
     width: 100%;
-    max-width: 14rem;
-    min-width: 14rem;
+    max-width: 13rem;
+    min-width: 13rem;
 }
 
 .image-wrapper {
@@ -37,7 +37,8 @@
 .name {
     color: #374151;
     font-weight: 500;
-    font-size: 1.125rem;
+    /* font-size: 1.110rem; */
+    font-size: medium;
     margin: 4px 0;
     white-space: nowrap;
     overflow: hidden;
